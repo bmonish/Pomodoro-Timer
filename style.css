@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
-
 * {
   margin: 0;
   padding: 0;
-}
-
-header > h1{
-    font-family: 'Bilbo Swash Caps', cursive;
 }
