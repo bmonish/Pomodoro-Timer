@@ -34,10 +34,19 @@ nav > ul{
     display: flex;
 }
 
-ul > li {
+ul > a > li {
     padding-left: 15px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cdcdcd;
+    transform: scale(0.9);
+}
 .container {
     height: 85vh;
     width: 100vw;
