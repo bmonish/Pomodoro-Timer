@@ -6,6 +6,7 @@ const mins_30 = 30 * secondsInMin;
 const mins_5 = 5 * secondsInMin;
 
 let currentDuration = mins_25;
+let timeLeft = 0;
 
 const playPauseButton = document.getElementById("playPause");
 
@@ -29,4 +30,17 @@ function updateDuration(mins) {
 
   timeLeft = currentDuration;
   updateString();
+}
+
+function updateString() {
+  let minutes = Math.floor(timeLeft / secondsInMin);
+  let seconds = timeLeft % secondsInMin;
+
+  if (seconds < 10) {
+    secondsString = "0" + seconds;
+  } else {
+    secondsString = seconds;
+  }
+
+  document.getElementById("timer").innerHTML = minutes + ":" + secondsString;
 }
