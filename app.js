@@ -39,7 +39,7 @@ function updateCountdown() {
   updateString();
 
   if (timeLeft == 0) {
-    console.log("Time over!!");
+    document.getElementById("timerAudio").play();
     stopCountdown();
     isRunning = false;
   }
@@ -53,6 +53,11 @@ function resetCountdown() {
   isRunning = true;
   timeLeft = currentDuration;
 }
+
+// function playTimerAudio() {
+//   var timerAudio = document.getElementById("timerAudio");
+//   timerAudio.play();
+// }
 
 //Button Handler
 function updateDuration(mins) {
