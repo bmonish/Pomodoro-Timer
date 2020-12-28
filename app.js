@@ -61,6 +61,9 @@ function resetCountdown() {
 
 //Button Handler
 function updateDuration(mins) {
+  if (isRunning) {
+    playPause();
+  }
   if (mins == 30) {
     currentDuration = mins_30;
   } else if (mins == 5) {
