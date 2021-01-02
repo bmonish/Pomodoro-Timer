@@ -57,11 +57,6 @@ function resetCountdown() {
   timeLeft = currentDuration;
 }
 
-// function playTimerAudio() {
-//   var timerAudio = document.getElementById("timerAudio");
-//   timerAudio.play();
-// }
-
 //Button Handler
 function updateDuration(mins) {
   if (isRunning) {
