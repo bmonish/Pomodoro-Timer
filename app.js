@@ -42,6 +42,8 @@ function updateCountdown() {
     document.getElementById("timerAudio").play();
     playPause();
     stopCountdown();
+    timeLeft = currentDuration;
+    updateString();
     isRunning = false;
   }
 }
