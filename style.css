@@ -74,3 +74,18 @@ h2 {
     align-items: center;
     width: 100vw;
 }
+
+.but-default {
+    border-radius: 20px;
+    padding: 5px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    height: 35px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.but-default:focus {
+    outline: none;
+}
