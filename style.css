@@ -89,3 +89,9 @@ h2 {
 .but-default:focus {
     outline: none;
 }
+
+.but-default:hover {
+    color: black;
+    background: rgba(255,255,255,0.8);
+    transform: scale(0.9);
+}
