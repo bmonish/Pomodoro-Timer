@@ -34,7 +34,7 @@ nav > ul{
     display: flex;
 }
 
-ul > a > li {
+li {
     padding-left: 15px;
 }
 
