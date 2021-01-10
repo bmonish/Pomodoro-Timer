@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-.theme {
-    cursor: pointer;
-}
-
 .main-container {
     --text-color: white;
     --bg-color: black;
