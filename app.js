@@ -2,6 +2,8 @@ const secondsInMin = 60;
 const mins_25 = 25 * secondsInMin;
 const mins_30 = 30 * secondsInMin;
 const mins_5 = 5 * secondsInMin;
+const themeChanger = document.querySelector(".theme");
+const bodyDiv = document.querySelector(".main-container");
 
 let isRunning = false;
 let interval;
@@ -88,3 +90,12 @@ function updateString() {
 
   document.getElementById("timer").innerHTML = minutes + ":" + secondsString;
 }
+
+themeChanger.addEventListener("click", () => {
+  bodyDiv.classList.toggle("light");
+  if (bodyDiv.classList[1] == "light") {
+    themeChanger.innerHTML = "Dark Theme";
+  } else {
+    themeChanger.innerHTML = "Light Theme";
+  }
+});

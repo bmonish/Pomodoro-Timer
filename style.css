@@ -5,8 +5,20 @@
     padding: 0;
 }
 
-body {
-    background-color: black;
+.theme {
+    cursor: pointer;
+}
+
+.main-container {
+    --text-color: white;
+    --bg-color: black;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.main-container.light {
+    --text-color: black;
+    --bg-color: white;
 }
 
 li {
@@ -16,7 +28,6 @@ li {
 header {
     display: flex;
     margin-top: 8px;
-    color: white;
     height: 10vh;
     margin-left: 20px;
     margin-right: 20px;
@@ -30,6 +41,9 @@ header > h2 {
     font-family: 'Bilbo Swash Caps', cursive;
 }
 
+h1 {
+    font-size: 10rem;
+}
 nav > ul{
     display: flex;
 }
@@ -39,7 +53,7 @@ li {
 }
 
 a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -56,15 +70,6 @@ a:hover {
     justify-content: center;
 }
 
-h1 {
-    color: white;
-    font-size: 10rem;
-}
-
-h2 {
-    color: white;
-}
-
 .inner__container {
     position: absolute;
     margin-bottom: 50px;
@@ -79,8 +84,8 @@ h2 {
     border-radius: 20px;
     padding: 5px;
     background: none;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
     height: 35px;
     width: 55px;
     cursor: pointer;
@@ -91,7 +96,7 @@ h2 {
 }
 
 .but-default:hover {
-    color: black;
-    background: rgba(255,255,255,0.8);
+    color: var(--bg-color);
+    background: var(--text-color);
     transform: scale(0.9);
 }
