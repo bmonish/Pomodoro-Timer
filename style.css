@@ -62,10 +62,14 @@ li {
 
 a {
     color: var(--text-color);
+    /* text-decoration: none; */
+}
+
+ul > a {
     text-decoration: none;
 }
 
-ul > a:hover {
+ul > a:hover, .footer a:hover {
     color: #cdcdcd;
     transform: scale(0.9);
 }
@@ -109,10 +113,10 @@ ul > a:hover {
     transform: scale(0.9);
 }
 
-.extra-container {
-    height: 100vh;
+/* .extra-container {
+    height: 80vh;
     scroll-snap-type: y mandatory;
-}
+} */
 
 .about {
     height: 30vh;
@@ -131,21 +135,18 @@ ul > a:hover {
     filter: grayscale(50%);
 }
 
-.about > p {
+.about__paragraph {
     padding-left: 50px;
 }
+
 .contact {
     display: flex;
-    height: 58vh;
+    height: 45vh;
     align-items: center;
-    justify-content: space-around;
-}
-
-.contact__left, .contact__right {
     font-family: 'Bodoni Moda', serif;
     font-weight: 600;
     font-size: 30px;
-    
+    justify-content: center;
 }
 
 hr{
@@ -157,23 +158,27 @@ hr{
     margin-right: auto;
 }
 
-input:focus {
-    outline: none;
-    border-bottom: 2px solid var(--text-color);
-}
-
-input{
-    background: none;
-    border: none;
+.contact a{
     color: var(--text-color);
-    border-bottom: 1px solid var(--text-color);
-    padding-left: 5px;
 }
 
-form {
+.contact a:hover {
+    color: #cdcdcd;
+    transform: scale(0.9);
+}
+
+.contact p {
+    text-align: center;
+}
+.footer{
     display: flex;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
 }
 
-.labels{
-    padding-right: 20px;
+.footer__icons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
