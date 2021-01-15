@@ -35,7 +35,7 @@ li {
 
 header {
     display: flex;
-    margin-top: 8px;
+    margin-top: 10px;
     height: 8vh;
     margin-left: 20px;
     margin-right: 20px;
@@ -51,6 +51,7 @@ header > h2 {
 
 h1 {
     font-size: 10rem;
+    margin-top: -90px;
 }
 nav > ul{
     display: flex;
@@ -112,11 +113,6 @@ ul > a:hover, .footer a:hover {
     background: var(--text-color);
     transform: scale(0.9);
 }
-
-/* .extra-container {
-    height: 80vh;
-    scroll-snap-type: y mandatory;
-} */
 
 .about {
     height: 30vh;
