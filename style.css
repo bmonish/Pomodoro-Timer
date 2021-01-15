@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.main-container::-webkit-scrollbar{
+    display: none;
+}
+
 .main-container {
     --text-color: white;
     --bg-color: black;
+    height: 100vh;
+    overflow: scroll;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -24,7 +36,7 @@ li {
 header {
     display: flex;
     margin-top: 8px;
-    height: 10vh;
+    height: 8vh;
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
@@ -50,15 +62,19 @@ li {
 
 a {
     color: var(--text-color);
+    /* text-decoration: none; */
+}
+
+ul > a {
     text-decoration: none;
 }
 
-a:hover {
+ul > a:hover, .footer a:hover {
     color: #cdcdcd;
     transform: scale(0.9);
 }
 .container {
-    height: 85vh;
+    height: 92vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -95,4 +111,74 @@ a:hover {
     color: var(--bg-color);
     background: var(--text-color);
     transform: scale(0.9);
+}
+
+/* .extra-container {
+    height: 80vh;
+    scroll-snap-type: y mandatory;
+} */
+
+.about {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+
+.about > img {
+    height: 30vh;
+    object-fit:contain;
+    border-radius: 50% !important;
+    filter: grayscale(50%);
+}
+
+.about__paragraph {
+    padding-left: 50px;
+}
+
+.contact {
+    display: flex;
+    height: 45vh;
+    align-items: center;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 50px;
+    padding: 0;
+    width: 80%;
+    border: 0.1px solid #cdcdcd;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact a{
+    color: var(--text-color);
+}
+
+.contact a:hover {
+    color: #cdcdcd;
+    transform: scale(0.9);
+}
+
+.contact p {
+    text-align: center;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.footer__icons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
