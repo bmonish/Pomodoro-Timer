@@ -5,3 +5,7 @@ A beautiful dark themed Pomodoro Timer!
 HTML
 CSS
 JS
+
+##HTML
+##CSS
+##JS
