@@ -7,5 +7,7 @@ CSS
 JS
 
 ## CSS Techniques Used
-Flexbox
+* Flexbox
+* Media Queries
+* Variables
 ## JS
