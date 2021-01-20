@@ -6,6 +6,6 @@ HTML
 CSS
 JS
 
-## HTML
-## CSS
+## CSS Techniques Used
+### Flexbox
 ## JS
