@@ -7,5 +7,5 @@ CSS
 JS
 
 ## CSS Techniques Used
-### Flexbox
+Flexbox
 ## JS
