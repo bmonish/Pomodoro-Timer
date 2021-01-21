@@ -11,11 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.main-container::-webkit-scrollbar{
+.main__container::-webkit-scrollbar{
     display: none;
 }
 
-.main-container {
+.main__container {
     --text-color: white;
     --bg-color: black;
     height: 100vh;
@@ -24,7 +24,7 @@ html {
     color: var(--text-color);
 }
 
-.main-container.light {
+.main__container.light {
     --text-color: black;
     --bg-color: white;
 }
@@ -93,7 +93,7 @@ ul > a:hover, .footer a:hover {
     width: 100vw;
 }
 
-.but-default {
+.but__default {
     border-radius: 20px;
     padding: 5px;
     background: none;
@@ -104,11 +104,11 @@ ul > a:hover, .footer a:hover {
     cursor: pointer;
 }
 
-.but-default:focus {
+.but__default:focus {
     outline: none;
 }
 
-.but-default:hover {
+.but__default:hover {
     color: var(--bg-color);
     background: var(--text-color);
     transform: scale(0.9);
