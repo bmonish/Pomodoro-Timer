@@ -3,59 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Monish B">
+    <meta name="author" content="Monish Baskar | Monish B">
+    <meta name="description" content="Beautiful Dark themed Pomodoro timer">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Timer, Countdown, Productivity, Pomodoro Technique, Beautiful UI">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
 </head>
-<body class="main-container">
+<body class="main__container">
     <header>
         <h2>M</h2>
         <nav>
             <ul>
-                <a href="#extras"><li>Contact</li></a>
-                <a href="#extras"><li>About</li></a>
-                <a href="#"><li><i class="fas fa-moon"></i></li></a>
+                <a href="#extras">
+                    <li>Contact</li>
+                </a>
+                <a href="#extras">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li><i class="fas fa-moon"></i></li>
+                </a>
             </ul>
         </nav>
     </header>
     <div class="container">
         <h1 id="timer">25:00</h1>
-        <button class="but-default" id="playPause" onclick="playPause()">Play</button>
+        <button class="but__default" id="playPause" onclick="playPause()">Play</button>
 
         <div class="inner__container">
-            <button class="but-default" onclick="updateDuration(25)">25:00</button>
-            <button class="but-default" onclick="updateDuration(5)">05:00</button>
-            <button class="but-default" onclick="updateDuration(30)">30:00</button>
+            <button class="but__default" onclick="updateDuration(25)">25:00</button>
+            <button class="but__default" onclick="updateDuration(5)">05:00</button>
+            <button class="but__default" onclick="updateDuration(30)">30:00</button>
         </div>
     </div>
-
     <a name="extras">
-    <div class="extra-container">
-        <div class="about">
-            <img src="https://avatars0.githubusercontent.com/u/31185862?s=400&u=1c02c533d269902019690a687505f0b86560eb26&v=4">
-            <p class="about__paragraph">
-                Just another common man with an extra pair of eyes and mouth!<br>
-                Can always be found roaming with a cup of coffee and a book!<br>
-                Finds Happiness in every little thing!<br>
-                Another engineer turned Writer and Photographer!<br>
-                Day Dreamer and Night thinker!<br>
-            </p>
-        </div>
-        <hr>
-        <div class="contact">
+        <div class="extra__container">
+            <div class="about">
+                <img src="https://avatars0.githubusercontent.com/u/31185862?s=400&u=1c02c533d269902019690a687505f0b86560eb26&v=4">
+                <p class="about__paragraph">
+                    Just another common man with an extra pair of eyes and mouth!<br>
+                    Can always be found roaming with a cup of coffee and a book!<br>
+                    Finds Happiness in every little thing!<br>
+                    Another engineer turned Writer and Photographer!<br>
+                    Day Dreamer and Night thinker!<br>
+                </p>
+            </div>
+            <hr>
+            <div class="contact">
                 <p>
                     Monish B<br>
                     <a href="mailto:monishmonib@gmail.com">monishmonib@gmail.com</a><br>
                     Chennai, India
                 </p>
-    </div></a>
+            </div>
+        </div>
+    </a>
     <div class="footer">
         <div class="footer__icons">
         <a href="https://www.github.com/bmonish" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.instagram.com/iammonishb/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/bmonish/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
     </div>
 
     <audio src="notification.mp3" id="timerAudio"></audio>
