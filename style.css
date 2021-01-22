@@ -119,6 +119,7 @@ ul > a:hover, .footer a:hover {
     align-items: center;
     justify-content: center;
     font-size: 40px;
+    gap: 50px;
     padding-top: 40px;
     font-family: 'Bilbo Swash Caps', cursive;
 }
@@ -128,10 +129,6 @@ ul > a:hover, .footer a:hover {
     object-fit:contain;
     border-radius: 50% !important;
     filter: grayscale(50%);
-}
-
-.about__paragraph {
-    padding-left: 50px;
 }
 
 .contact {
