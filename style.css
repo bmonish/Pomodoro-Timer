@@ -162,6 +162,7 @@ hr{
 .contact p {
     text-align: center;
 }
+
 .footer{
     display: flex;
     padding: 20px;
@@ -187,5 +188,9 @@ hr{
 
     h1{
         font-size: 8rem;
+    }
+
+    .contact {
+        font-size: 25px;
     }
 }
