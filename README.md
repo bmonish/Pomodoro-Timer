@@ -10,6 +10,9 @@ JS
 * Flexbox
 * Media Queries
 * Variables
+
+Recommended Crash Course:
+
 ## JS
 * DOM
 * Event Listeners
