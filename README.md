@@ -12,3 +12,4 @@ JS
 * Variables
 ## JS
 * DOM
+* Event Listeners
