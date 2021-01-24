@@ -21,3 +21,4 @@ Recommended Crash Course:
 
 Recommended Crash Course:
 * https://www.youtube.com/watch?v=hdI2bqOjy3c
+* https://www.youtube.com/watch?v=Qqx_wzMmFeA
