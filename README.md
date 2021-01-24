@@ -11,7 +11,8 @@ JS
 * Media Queries
 * Variables
 
-Recommended Crash Course:
+Recommended Crash Course: https://www.youtube.com/watch?v=yfoY53QXEnI&t=9s
+* Flexbox: https://www.youtube.com/watch?v=JJSoEo8JSnc&t=4s
 
 ## JS
 * DOM
