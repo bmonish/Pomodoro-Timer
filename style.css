@@ -131,38 +131,6 @@ ul > a:hover, .footer a:hover {
     filter: grayscale(50%);
 }
 
-.contact {
-    display: flex;
-    height: 45vh;
-    align-items: center;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 600;
-    font-size: 30px;
-    justify-content: center;
-}
-
-hr{
-    margin-top: 50px;
-    padding: 0;
-    width: 80%;
-    border: 0.1px solid #cdcdcd;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contact a{
-    color: var(--text-color);
-}
-
-.contact a:hover {
-    color: #cdcdcd;
-    transform: scale(0.9);
-}
-
-.contact p {
-    text-align: center;
-}
-
 .footer{
     display: flex;
     padding: 20px;
@@ -188,9 +156,5 @@ hr{
 
     h1{
         font-size: 8rem;
-    }
-
-    .contact {
-        font-size: 25px;
     }
 }
