@@ -28,7 +28,7 @@ function playPause() {
     playPauseButton.innerHTML = "Pause";
   } else {
     stopCountdown();
-    playPauseButton.innerHTML = "Play";
+    playPauseButton.innerHTML = "Start";
   }
 }
 
