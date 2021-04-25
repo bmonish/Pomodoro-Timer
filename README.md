@@ -2,9 +2,9 @@
 A beautiful dark themed Pomodoro Timer!
 
 # Languages Used
-HTML
-CSS
-JS
+* HTML
+* CSS
+* JS
 
 ## CSS Techniques Used
 * Flexbox
